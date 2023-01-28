@@ -1,3 +1,9 @@
 function getProperty(obj, key) {
-  // your code here
+
+  if (!obj[key]) {
+      return undefined;
+  }
+
+  return obj[key];
+
 }

@@ -1,4 +1,7 @@
 function getLastElement(array) {
   // Add your code after this line
-  return 4
+  if (array.length === 0){
+      return undefined;
+  }
+  return array[array.length - 1];
 }
