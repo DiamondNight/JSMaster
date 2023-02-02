@@ -9,5 +9,8 @@ let obj2 = {
 
 function extend(obj1, obj2) {
     // your code here
-
+    obj1['c']=obj2.c;
+    return;
 }
+extend(obj1, obj2);
+console.log(obj1);

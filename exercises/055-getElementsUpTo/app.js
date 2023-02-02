@@ -1,4 +1,9 @@
 function getElementsUpTo(array, n) {
-  // your code here
-  
+  let arrFinal=[];
+  let i=0;
+  while (i < n){
+      arrFinal.push(array[i]);
+      i++;
+  }
+  return arrFinal;
 }
